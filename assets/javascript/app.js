@@ -49,7 +49,6 @@ $("#AthleteButtons").on("click", ".athletebutton", function () {
 
                 var athleteImage = $("<img>");
 
-
                 athleteImage.attr("src", results[i].images.fixed_height.url);
                 athleteImage.attr("data-still", results[i].images.fixed_height_still.url);
                 athleteImage.attr("data-animate", results[i].images.fixed_height.url);
@@ -58,7 +57,6 @@ $("#AthleteButtons").on("click", ".athletebutton", function () {
 
 
                 gifDiv.append(athleteImage);
-                gifDiv.prepend(p);
 
                 $("#gifs").prepend(gifDiv);
             }

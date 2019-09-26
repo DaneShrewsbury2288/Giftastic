@@ -6,7 +6,7 @@
     height: 1500px;
    
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
@@ -25,12 +25,21 @@ h1 {
     margin-left: 15%;
 }
 
+.form-group {
+    margin-left: 30%;
+}
+
 #AthleteButtons {
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 .athletebutton {
     margin: 5px;
+}
+
+img {
+    width: 250px;
+    height: 200px;
 }
 
 #gifs {
@@ -40,12 +49,6 @@ h1 {
 
 .gif {
     margin: 10px;
-    float: left;
-}
-
-.ratings {
-    color: white;
-    margin: 0;
     float: left;
 }
 

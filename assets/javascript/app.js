@@ -47,8 +47,6 @@ $("#AthleteButtons").on("click", ".athletebutton", function () {
                 var gifDiv = $("<div>");
                 gifDiv.addClass("totalimg");
 
-                p.addClass("ratings");
-
                 var athleteImage = $("<img>");
 
 
